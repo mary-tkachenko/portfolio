@@ -1,0 +1,41 @@
+body {
+    background-image: url("media/1.jpg");
+	background-size: 1046px 597px;
+}
+
+#motto, p {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+#container_motto {
+	background-color: rgba(255, 152, 0, 0.68);
+    height: 5vw;
+    width: 92vw;
+    margin-top: -47vw;
+    margin-left: 2vw;
+}
+
+#container_about {
+    background-color: rgba(74, 72, 193, 0.68);
+    height: 22vw;
+    width: 32vw;
+    margin-left: 1vw;
+    margin-top: 13vw;
+}
+
+#container_contacts {
+    background-color: rgba(83, 204, 154, 0.88);
+    height: 11vw;
+    width: 39vw;
+    margin-left: 3vw;
+    margin-top: 7vw;
+   }
+
+#container_projects {
+    background-color: rgba(33, 150, 243, 0.87);
+    height: 49vw;
+    width: 64vw;
+    margin-left: 34vw;
+    margin-top: -53vw;
+}
