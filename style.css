@@ -26,10 +26,10 @@ body {
 
 #container_contacts {
     background-color: rgba(83, 204, 154, 0.88);
-    height: 11vw;
-    width: 39vw;
+    height: 19vw;
+    width: 8vw;
     margin-left: 3vw;
-    margin-top: 7vw;
+    margin-top: 1vw;
    }
 
 #container_projects {
@@ -38,4 +38,13 @@ body {
     width: 64vw;
     margin-left: 34vw;
     margin-top: -53vw;
+}
+
+#github, #linkedin, #gmail {
+    width: 4vw;
+    margin-left: 2vw;
+}
+
+#github {
+    margin-top: 2vw;
 }
