@@ -9,42 +9,113 @@ body {
 }
 
 #container_motto {
-	background-color: rgba(255, 152, 0, 0.68);
+	background-color: rgba(255, 152, 0, 0.8);
     height: 5vw;
     width: 92vw;
-    margin-top: -47vw;
+    margin-top: -52vw;
     margin-left: 2vw;
 }
 
 #container_about {
-    background-color: rgba(74, 72, 193, 0.68);
-    height: 22vw;
-    width: 32vw;
+    background-color: rgba(74, 72, 193, 0.8);
+    height: 31vw;
+    width: 30vw;
     margin-left: 1vw;
-    margin-top: 13vw;
+    margin-top: 9vw;
 }
 
 #container_contacts {
     background-color: rgba(83, 204, 154, 0.88);
-    height: 19vw;
-    width: 8vw;
-    margin-left: 3vw;
-    margin-top: 1vw;
+/*    height: 8vw;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-top: 3vw;*/
+    height: 5vw;
+    width: 26vw;
+    margin-left: 9vw;
+    margin-top: 5vw;
    }
 
 #container_projects {
     background-color: rgba(33, 150, 243, 0.87);
     height: 49vw;
     width: 64vw;
-    margin-left: 34vw;
-    margin-top: -53vw;
+    margin-left: 32vw;
+    margin-top: -48vw;
 }
 
+#container_skills {
+    background-color: rgba(255, 235, 59, 0.65);
+    height: 46vw;
+    width: 12vw;
+    margin-left: 86vw;
+}
+
+#devicons {
+    display: flex;
+    /*justify-content: space-around;*/
+    width: 9vw;
+    margin-left: 1vw;
+}
 #github, #linkedin, #gmail {
-    width: 4vw;
+    width: 3vw;
     margin-left: 2vw;
 }
 
 #github {
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
+
+#gmail {
+    margin-left: 8vw;
+}
+
+.text_about {
+    padding: 1vw;
+    text-indent: 5%;
+}
+
+.title {
+    text-indent: 3vw;
+    padding-top: 1vw;
+}
+
+#tiic {
+
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+    margin-left: -2vw;
+}
+
+#section_1 p img, #section_2 p img {
+    height: 3vw;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container img {
+    height: 3vw;
+
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-size: 13px;
+}
+
