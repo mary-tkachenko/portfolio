@@ -39,9 +39,10 @@ body {
 #container_projects {
     background-color: rgba(33, 150, 243, 0.87);
     height: 49vw;
-    width: 64vw;
+    width: 55vw;
     margin-left: 32vw;
-    margin-top: -48vw;
+    margin-top: -46vw;
+    overflow-y: scroll;
 }
 
 #container_skills {
@@ -121,5 +122,27 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: black;
   font-size: 13px;
+}
+
+.gif {
+    height: 20vw;
+}
+
+#xmen, #dixit, #jumpstart {
+
+}
+ .project_name, .project_description, .project_gif, .project_link {
+    text-align: center;
+ }
+
+.project_name {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
