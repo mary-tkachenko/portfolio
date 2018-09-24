@@ -31,8 +31,8 @@ body {
     margin-left: 5vw;
     margin-top: 3vw;*/
     height: 5vw;
-    width: 26vw;
-    margin-left: 9vw;
+    width: 24vw;
+    margin-left: 5vw;
     margin-top: 5vw;
    }
 
@@ -58,7 +58,7 @@ body {
     width: 9vw;
     margin-left: 1vw;
 }
-#github, #linkedin, #gmail {
+#github, #linkedin, #gmail, #resume {
     width: 3vw;
     margin-left: 2vw;
 }
@@ -67,9 +67,9 @@ body {
     margin-top: 1vw;
 }
 
-#gmail {
+/*#gmail {
     margin-left: 8vw;
-}
+}*/
 
 .text_about {
     padding: 1vw;
@@ -138,6 +138,7 @@ body {
 .project_name {
     color: black;
     font-weight: bold;
+    font-size: 20px;
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -145,4 +146,5 @@ a:hover, a:visited, a:link, a:active {
     color: black;
     font-weight: bold;
 }
+
 
