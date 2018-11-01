@@ -152,13 +152,14 @@ a:hover, a:visited, a:link, a:active {
 
 
 @media only screen and (max-width: 414px) {
+    
 #container_skills {
     background-color: rgba(255, 235, 59, 0.65);
-    height: 18vw;
+    height: 28vw;
     width: 48vw;
     margin-left: 28vw;
     overflow-x: scroll;
-    margin-top: 77vw;
+    margin-top: 126vw;
 }
 
 #devicons {
@@ -176,10 +177,14 @@ a:hover, a:visited, a:link, a:active {
 
 #container_about {
     background-color: rgba(74, 72, 193, 0.8);
-    height: 19vw;
-    width: 56vw;
-    margin-left: 22vw;
+    height: 37vw;
+    width: 95vw;
+    margin-left: 2vw;
     margin-top: 9vw;
+}
+
+.project_name {
+    font-size: 1.5vw;
 }
 
 #container_contacts {
@@ -187,15 +192,15 @@ a:hover, a:visited, a:link, a:active {
     height: 5vw;
     width: 24vw;
     margin-left: 40vw;
-    margin-top: 75vw;
+    margin-top: 120vw;
 }
 
 #container_projects {
     background-color: rgba(33, 150, 243, 0.87);
-    height: 49vw;
-    width: 81vw;
-    margin-left: 9vw;
-    margin-top: -76vw;
+    height: 78vw;
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: -121vw;
     overflow-y: scroll;
 }
 
@@ -203,8 +208,18 @@ a:hover, a:visited, a:link, a:active {
     background-color: rgba(255, 152, 0, 0.8);
     height: 5vw;
     width: 92vw;
-    margin-top: -81vw;
-    margin-left: 2vw;
+    margin-top: -129vw;
+    margin-left: 4vw;
+}
+
+.title {
+    font-size: 3vw;
+}
+
+.text_about {
+    padding: 1vw;
+    text-indent: 5%;
+    font-size: 2vw;
 }
 
 }
@@ -214,13 +229,22 @@ a:hover, a:visited, a:link, a:active {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+
 #container_skills {
     background-color: rgba(255, 235, 59, 0.65);
-    height: 18vw;
+    height: 28vw;
     width: 48vw;
     margin-left: 28vw;
     overflow-x: scroll;
-    margin-top: 77vw;
+    margin-top: 126vw;
+}
+
+#tiic {
+    font-size: 3vw;
+}
+
+.title {
+    font-size: 3vw;
 }
 
 #devicons {
@@ -238,9 +262,9 @@ a:hover, a:visited, a:link, a:active {
 
 #container_about {
     background-color: rgba(74, 72, 193, 0.8);
-    height: 19vw;
-    width: 56vw;
-    margin-left: 22vw;
+    height: 37vw;
+    width: 95vw;
+    margin-left: 2vw;
     margin-top: 9vw;
 }
 
@@ -249,15 +273,15 @@ a:hover, a:visited, a:link, a:active {
     height: 5vw;
     width: 24vw;
     margin-left: 40vw;
-    margin-top: 75vw;
+    margin-top: 120vw;
 }
 
 #container_projects {
     background-color: rgba(33, 150, 243, 0.87);
-    height: 49vw;
-    width: 81vw;
-    margin-left: 9vw;
-    margin-top: -76vw;
+    height: 78vw;
+    width: 85vw;
+    margin-left: 7vw;
+    margin-top: -121vw;
     overflow-y: scroll;
 }
 
@@ -265,8 +289,24 @@ a:hover, a:visited, a:link, a:active {
     background-color: rgba(255, 152, 0, 0.8);
     height: 5vw;
     width: 92vw;
-    margin-top: -81vw;
-    margin-left: 2vw;
+    margin-top: -129vw;
+    margin-left: 4vw;
+}
+
+.text_about {
+    padding: 1vw;
+    text-indent: 5%;
+    font-size: 2vw;
+}
+
+#tiic {
+    font-size: 3vw;
+
+}
+
+.project_name {
+
+    font-size: 1.5vw;
 }
 
 }
