@@ -152,12 +152,12 @@ a:hover, a:visited, a:link, a:active {
 
 
 @media only screen and (max-width: 414px) {
-    
+
 #container_skills {
     background-color: rgba(255, 235, 59, 0.65);
-    height: 28vw;
-    width: 48vw;
-    margin-left: 28vw;
+    height: 45vw;
+    width: 84vw;
+    margin-left: 8vw;
     overflow-x: scroll;
     margin-top: 126vw;
 }
@@ -172,26 +172,35 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container img {
-        padding: 1vw;
+    padding: 1vw;
+    height: 7vw;
 }
 
 #container_about {
     background-color: rgba(74, 72, 193, 0.8);
-    height: 37vw;
+    height: 117vw;
     width: 95vw;
     margin-left: 2vw;
     margin-top: 9vw;
 }
 
 .project_name {
-    font-size: 1.5vw;
+    font-size: 4.5vw;
+}
+
+.project_description {
+    font-size: 4vw;
+}
+
+.gif {
+    height: 50vw;
 }
 
 #container_contacts {
     background-color: rgba(83, 204, 154, 0.88);
-    height: 5vw;
-    width: 24vw;
-    margin-left: 40vw;
+    height: 15vw;
+    width: 63vw;
+    margin-left: 17vw;
     margin-top: 120vw;
 }
 
@@ -199,27 +208,35 @@ a:hover, a:visited, a:link, a:active {
     background-color: rgba(33, 150, 243, 0.87);
     height: 78vw;
     width: 85vw;
-    margin-left: 7vw;
-    margin-top: -121vw;
+    width: 95vw;
+    margin-left: 2vw;
     overflow-y: scroll;
 }
 
 #container_motto {
     background-color: rgba(255, 152, 0, 0.8);
-    height: 5vw;
+    height: 8vw;
     width: 92vw;
     margin-top: -129vw;
     margin-left: 4vw;
 }
 
 .title {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 .text_about {
     padding: 1vw;
     text-indent: 5%;
-    font-size: 2vw;
+    font-size: 4vw;
+}
+
+#github, #linkedin, #gmail, #resume {
+    width: 13vw;
+}
+
+.text {
+  font-size: 2.5vw;
 }
 
 }
@@ -232,19 +249,19 @@ a:hover, a:visited, a:link, a:active {
 
 #container_skills {
     background-color: rgba(255, 235, 59, 0.65);
-    height: 28vw;
-    width: 48vw;
-    margin-left: 28vw;
+    height: 45vw;
+    width: 84vw;
+    margin-left: 8vw;
     overflow-x: scroll;
     margin-top: 126vw;
 }
 
 #tiic {
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .title {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 #devicons {
@@ -257,12 +274,13 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container img {
-        padding: 1vw;
+    padding: 1vw;
+    height: 7vw;
 }
 
 #container_about {
     background-color: rgba(74, 72, 193, 0.8);
-    height: 37vw;
+    height: 117vw;
     width: 95vw;
     margin-left: 2vw;
     margin-top: 9vw;
@@ -270,24 +288,24 @@ a:hover, a:visited, a:link, a:active {
 
 #container_contacts {
     background-color: rgba(83, 204, 154, 0.88);
-    height: 5vw;
-    width: 24vw;
-    margin-left: 40vw;
+    height: 15vw;
+    width: 63vw;
+    margin-left: 17vw;
     margin-top: 120vw;
 }
 
 #container_projects {
     background-color: rgba(33, 150, 243, 0.87);
     height: 78vw;
-    width: 85vw;
-    margin-left: 7vw;
+    width: 95vw;
+    margin-left: 2vw;
     margin-top: -121vw;
     overflow-y: scroll;
 }
 
 #container_motto {
     background-color: rgba(255, 152, 0, 0.8);
-    height: 5vw;
+    height: 8vw;
     width: 92vw;
     margin-top: -129vw;
     margin-left: 4vw;
@@ -296,17 +314,33 @@ a:hover, a:visited, a:link, a:active {
 .text_about {
     padding: 1vw;
     text-indent: 5%;
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 #tiic {
-    font-size: 3vw;
+    font-size: 4vw;
 
 }
 
 .project_name {
 
-    font-size: 1.5vw;
+    font-size: 4.5vw;
+}
+
+.project_description {
+    font-size: 4vw;
+}
+
+.gif {
+    height: 50vw;
+}
+
+#github, #linkedin, #gmail, #resume {
+    width: 13vw;
+}
+
+.text {
+  font-size: 2.5vw;
 }
 
 }
